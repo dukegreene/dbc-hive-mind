@@ -5,5 +5,6 @@ class CreateCohorts < ActiveRecord::Migration
       t.string :mascot_image_url
 
       t.timestamps
+    end
   end
 end
