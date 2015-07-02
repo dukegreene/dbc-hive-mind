@@ -4,6 +4,8 @@ class CreateUsers < ActiveRecord::Migration
       t.string :username
       t.string :hashed_password
       t.integer :cohort_id
+
+      t.timestamps
     end
   end
 end
